@@ -1,0 +1,13 @@
+name: SecurityChest
+version: '${project.version}'
+main: me.evanf.securitychest.SecurityChest
+api-version: 1.19
+authors: [ Evan_Farnping ]
+description: A plugin that allows for players to place down a special chest that only they can open
+
+commands:
+  getsecuritychest:
+
+permissions:
+  security_chest_perm.access:
+    default: op

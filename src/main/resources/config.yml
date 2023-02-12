@@ -1,0 +1,13 @@
+# Allow certain other players (particularly moderators, admins, etc.),
+# to access a player's security chest.
+# Op is default, changing this to false will practically disable security chests
+security_chest_perm: true
+
+# Semi-configurable crafting options
+# Items must be formatted as all caps and with underscores as spaces
+security_chest_recipe:
+  center_slot: TRAPPED_CHEST
+  corner_slots: COPPER_BLOCK
+  center_top_slot: REDSTONE_TORCH
+  side_and_bottom_slot: REDSTONE_BLOCK
+
